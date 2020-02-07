@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="0dp"
+        android:scaleType="center"
+        android:src="@drawable/nivea"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:textAlignment="center"
+        android:text="SEJARAH NIVEA CREAM"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#000080"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="\nLebih dari 100 tahun yang lalu, kami menemukan perawatan kulit modern lewat NIVEA Creme. Saat ini, jutaan orang di seluruh dunia, dengan berbagai jenis kulit, mengandalkan brand NIVEA. Itulah sebabnya peneliti kami bekerja secara ekstensif dengan jenis kulit yang berbeda dan berbagai persyaratan perawatan yang dari berbagai budaya, jenis kelamin dan usia. Berkat pendekatan ini, kami telah mengembangkan banyak produk perawatan kulit yang inovatif selama beberapa dekade terakhir - dari deodoran hingga produk tabir surya. \n\nKami bekerja dengan lebih dari 50 institusi di seluruh dunia untuk memastikan produk kami sesuai untuk kulit Anda. Di kantor pusat kami di Hamburg, kami bahkan telah mendirikan laboratorium kami sendiri untuk Asia dan Amerika Latin, di mana kami melakukan penelitian yang secara khusus ditujukan untuk jenis kulit dan kondisi iklim yang ditemukan di wilayah ini. Kami melakukan ini sehingga suatu hari semua orang di dunia dapat menaruh kepercayaan mereka pada produk NIVEA."
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textColor="#000080">
+
+    </TextView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
